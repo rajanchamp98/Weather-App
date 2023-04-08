@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+  
+
+
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+    color: white;
+   
+}
+.Heading{
+    position: relative;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 0.8em;
+
+}
+
+.Heading h2::first-letter{
+    color:rgb(255, 36, 36);
+    font-weight: 1000;
+}
+
+
+.Heading img{
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left:0;
+    animation-name: headingImg;
+    animation-duration: 2s;
+   
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes headingImg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+   
+    
+}
+
+
+.navbar h2 {
+    padding: 8px;
+    margin-left: 0.7rem;
+}
+
+.navbar button {
+    background-color: transparent;
+    padding: 0.6rem;
+    color: white;
+    margin-right: 2rem;
+    animation-name: navbtn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    
+    
+}
+
+
+@keyframes navbtn {
+    0% {
+        border-left:1px solid red;
+        border-bottom:1px solid red;
+        border-right:1px solid red;
+        border-top:1px solid red;
+       
+    }
+    25% {
+        border-left:1px solid rgb(47, 0, 255);
+        border-bottom:1px solid rgb(47, 0, 255);
+        border-right:1px solid rgb(47, 0, 255);
+        border-top:1px solid rgb(47, 0, 255);
+       
+    }
+    50% {
+        border-left:1px solid rgb(20, 219, 56);
+        border-bottom:1px solid rgb(20, 219, 56);
+        border-right:1px solid rgb(20, 219, 56);
+        border-top:1px solid rgb(20, 219, 56);
+       
+
+    }
+    75% {
+        border-left:1px solid rgb(226, 234, 12);
+        border-bottom:1px solid rgb(226, 234, 12);
+        border-right:1px solid rgb(226, 234, 12);
+        border-top:1px solid rgb(226, 234, 12);
+        
+
+    }
+    100% {
+        border-left:1px solid rgb(220, 15, 107);
+        border-bottom:1px solid rgb(220, 15, 107);
+        border-right:1px solid rgb(220, 15, 107);
+        border-top:1px solid rgb(220, 15, 107);
+       
+
+    }
+    
+}
+
+@media screen and (min-aspect-ratio:4/3){
+    .navbar{
+        height:4rem;
+    }
+}
+@media screen and (min-width:834px) {
+    .navbar{
+        height:10vh;
+    }
+    
+}
+

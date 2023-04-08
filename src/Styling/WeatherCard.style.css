@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&family=Rye&display=swap');
+
+.WeatherCard {
+
+    box-sizing: border-box;
+    overflow: hidden;
+   
+    width: 20em;
+    margin: 20px auto;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    border:1px solid white;
+    
+
+}
+
+.imageContainer {
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.imageContainer img {
+    width: 50%;
+    animation-name: imgani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes imgani {
+        from {
+            transform: scale(0.5);
+        }
+        to{
+            transform: scale(1);
+        }
+       
+    }
+
+
+.imageContainer h1 {
+    position: absolute;
+    /* bottom: 5.2rem; */
+    /* text-align: center; */
+    /* width: 100%; */
+    font-size: 3.2em;
+    /* color:rgba(10, 10, 248, 0.831); */
+   
+    font-weight: 900;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F;
+    font-family: 'Martel', serif;
+    font-family: 'Rye', cursive;
+} 
+
+.detailsContainer {
+    padding: 10px;
+    color:white;
+    
+}
+

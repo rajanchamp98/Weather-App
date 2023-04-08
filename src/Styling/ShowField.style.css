@@ -1,0 +1,42 @@
+.ShowField {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    background: #360033;
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);
+    background: linear-gradient(to right, #0b8793, #360033);
+   
+
+}
+
+
+
+
+
+
+
+.forecasteHeading {
+    width: 100%;
+    color: white;
+    border-bottom: 2px double white;
+    text-align: center;
+
+}
+
+.forecasteHeading h1 {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    border-width: 50%;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    top:0;
+
+}
+

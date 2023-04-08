@@ -1,0 +1,118 @@
+.CurrentWeather {
+    color: white;
+    width: 100vw;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    background: #780206;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(to right, #061161, #780206);
+    /* border:5px solid green; */
+    padding: 5%;
+    /* gap: 15px; */
+    
+    
+    
+}
+
+.currentDetails {
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+    
+    
+
+    
+
+}
+
+
+
+
+.infoLeft {
+    /* border:2px solid black; */
+    padding: 1.2em;
+    border-right: 2px dashed rgb(255, 255, 255);
+    width:50%;
+
+}
+
+.infoRight {
+    /* border:2px solid black; */
+    padding: 1.2em;
+    width:50%
+
+}
+
+.icon_manage {
+    display: flex;
+}
+.icon_manage h1{
+    font-size: 1.7em;
+}
+
+.icon_manage h4 {
+    display: inline;
+
+}
+
+.icon_manage img {
+    display: inline;
+   
+}
+.airStatus{
+    background-color: black;
+    padding: 1.5rem ;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.airStatus p{
+    margin-left: 1.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 35px;
+    
+    
+}
+.icon_manage h2::first-letter{
+ color:red;
+}
+
+.infoRight h2::first-letter{
+    color:red;
+}
+
+/* 
+@media screen and (max-width:1081px) {
+    
+    .CurrentWeather h2{
+        margin-top: 5rem;
+    }
+    
+} */
+
+
+
+
+
+@media screen and (max-width:724px) {
+    .currentDetails{
+        flex-wrap: wrap;
+    }
+    .infoLeft{
+        width:100%;
+        border-right: 0px;
+        border-bottom: 2px dashed white;
+    }
+    .infoRight{
+        width:100%;
+    }
+    
+}

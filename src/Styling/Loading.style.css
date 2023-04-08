@@ -1,0 +1,40 @@
+.loading{
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    background-color: rgba(53, 48, 48, 0.7);
+}
+.popupbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    width:35%;
+    height:38%;
+    background-color: transparent;
+    flex-direction:column;
+    color: white;
+    background-color: rgba(5,15,26,255);
+    border-radius: 13px;
+}
+.popupbox img{
+    width:4em;
+    height:4em;
+
+}
+
+@media screen and (max-width:540px) {
+    .popupbox{
+        width:90%;
+        height:30%;
+        margin-top: 5.3rem;
+    }
+    
+}
